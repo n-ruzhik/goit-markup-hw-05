@@ -759,7 +759,7 @@ img {
 .backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 .backdrop.is-hidden .modal {
@@ -776,6 +776,7 @@ img {
     padding: 40px;
 
     background-color: #fff; 
+    visibility: visible;
 
     transform: translate(-50%, -50%) scale(1);
 
